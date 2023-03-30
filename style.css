@@ -1,0 +1,82 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+    background-image:url('https://www.shutterstock.com/image-photo/womens-hand-typing-on-keyboard-laptop-636276959');
+  }
+  
+  header {
+    background-color: #0077ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+     
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .chat-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .message p {
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  .message .time {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .message-form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .message-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .message-form button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #0077ff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
